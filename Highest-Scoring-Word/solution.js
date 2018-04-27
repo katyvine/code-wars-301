@@ -7,7 +7,7 @@ function high(x){
     for (let k = 0; k<b.length; k++){
       scoreB += b.charCodeAt(k)-96;
       }
-    if (scoreA > scoreB){
+    if (scoreA >= scoreB){
     return a;
     }
     return b;
